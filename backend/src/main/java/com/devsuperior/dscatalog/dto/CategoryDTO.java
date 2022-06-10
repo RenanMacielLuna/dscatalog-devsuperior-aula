@@ -18,8 +18,8 @@ public class CategoryDTO implements Serializable {
   }
 
   public CategoryDTO(Long id, String name) {
-    this.id = id;
-    this.name = name;
+    setId(id);
+    setName(name);
   }
 
   public Long getId() {
